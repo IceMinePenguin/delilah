@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 1.5em;
-}
-
-p {
+    background: #510530;
+    color: #e7baba;
 
 }
 
@@ -13,4 +12,40 @@ header {
 
 footer {
     text-align: center;
+}
+
+div.main {
+    min-width: auto;
+    max-width: 50%;
+    margin: auto;
+    padding: 1em;
+    border: 0.2em solid #a856bd;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+div.list {
+    width: 70%;
+    margin: auto;
+    padding: 0em;
+}
+
+h1 {
+
+}
+
+h2 {
+    text-align: center
+}
+
+p {
+
+}
+
+a {
+    color: #e78d8d;
+}
+
+a:hover {
+    color: #ffd0a6;
 }
