@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 1.5em;
-    background: #510530;
+    background-image: linear-gradient(#631452, #3b0523);
     color: #e7baba;
 
 }
@@ -19,9 +19,18 @@ div.main {
     max-width: 50%;
     margin: auto;
     padding: 1em;
-    border: 0.2em solid #a856bd;
+    background: linear-gradient(to right, #9f05ff, #420279);
     text-align: justify;
     margin-bottom: 1em;
+}
+
+div.main:hover {
+    background: linear-gradient(to left, #9f05ff, #420279);
+}
+
+div.interior {
+    background-image: linear-gradient(#3b0523, #631452);
+    padding: 2rem;
 }
 
 div.list {
