@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     background-image: url('images/galaxy.jpg');
     color: #e7baba;
+    background-size:cover
 
 }
 
@@ -27,7 +28,7 @@ content: '';
   right: 0;
   bottom: 0;
   left: 0;
-    width: 50%;
+    max-width: 45em;
     margin: auto;
     padding: 0.5em;
     text-align: justify;
@@ -38,14 +39,11 @@ content: '';
 
 div.main::before {
     position: absolute;
-content: '';
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-    margin: auto;
-    padding: 0.5em;
-    text-align: justify;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-image: linear-gradient(to bottom, #420279, #ff6ceb);
     z-index: -1;
     transition: opacity 0.4s linear;
@@ -58,26 +56,30 @@ div.main:hover::before {
 
 div.interior {
     background: #3b0523;
-    padding: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 div.list {
     text-align: left;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 0em;
 }
 
 div.header {
     min-width: auto;
-    max-width: 20%;
+    max-width: 25em;
     margin: auto;
     padding: 0.5em;
     background-image: linear-gradient(to top, #420279, #ff6ceb);
     text-align: center;
     margin-bottom: 1em;
+}
+
+p {
+    padding: 1em;
 }
 
 p.header {
@@ -88,6 +90,11 @@ h1.header {
     font-weight: bolder;
     font-size: 3em;
 }
+
+ul {
+    padding: 1em;
+}
+
 
 h2 {
     text-align: center
