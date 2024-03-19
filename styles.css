@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     background-image: url('images/galaxy.jpg');
     color: #e7baba;
     background-size:cover
@@ -31,7 +31,7 @@ content: '';
     max-width: 45em;
     margin: auto;
     padding: 0.5em;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1em;
     background-image: linear-gradient(to top, #420279, #ff6ceb);
     z-index: 1;
